@@ -22,10 +22,7 @@ const Navbar = () => {
       </div>
       <Searchbar />
       <div className="sm:flex gap-8 font-medium hidden">
-        <Link
-          href="/account"
-          className="flex items-center justify-center gap-1"
-        >
+        <Link href="/login" className="flex items-center justify-center gap-1">
           <FiUser size={24} />
           Account
         </Link>
